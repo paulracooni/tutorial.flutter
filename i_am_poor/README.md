@@ -1,16 +1,14 @@
-# iampoor
+# i-am-poor
 
-The I Am Poor Challenge
+## The I Am Poor Challenge
+After getting a course for a i am rich, I will try this challenge.
 
-## Getting Started
+## Widget specification 
+Widget tree specification could be checked with below image.
+![widget_tree](./res/images/spec.JPG)
+It is very simple challenge. 
 
-This project is a starting point for a Flutter application.
+## What i expect from this challenge
+- I hope to get confidence of building flutter app from scratch.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
