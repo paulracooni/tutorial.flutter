@@ -1,7 +1,103 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MiCardAppAssignment());
+  runApp(MiCardApp());
+}
+
+class MiCardApp extends StatelessWidget {
+
+  String _profile_img = "images/profile_paul.jpg";
+  String _name = "Paul Kim";
+  String _job_desc = "Machine Learning Engineer";
+  String _font_pacifico= 'Pacifico';
+  String _font_sans= 'SourceSansPro';
+  String _phone_number = '010-2819-1202';
+  String _email = "paul.kim@honeynaps.com";
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.teal,
+        body: SafeArea(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              CircleAvatar(
+                radius: 50.0,
+                backgroundImage: AssetImage(_profile_img),
+              ),
+              Text(
+                _name,
+                style: TextStyle(
+                  fontFamily: _font_pacifico,
+                  fontSize: 40.0,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                _job_desc,
+                style: TextStyle(
+                  fontFamily: _font_sans,
+                  fontSize: 20.0,
+                  letterSpacing: 2.5,
+                  color: Colors.white.withOpacity(0.8),
+                  fontWeight: FontWeight.w100,
+                ),
+              ),
+              SizedBox(
+                height: 20,
+                width: 170,
+                child: Divider(
+                  color: Colors.white.withOpacity(0.9),
+                ),
+              ),
+              Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: ListTile(
+                  leading: Icon(
+                      Icons.phone,
+                      color: Colors.teal
+                  ),
+                  title: Text(
+                      _phone_number,
+                      style: TextStyle(
+                          fontFamily: _font_sans,
+                          color: Colors.black.withOpacity(0.8),
+                          fontSize: 20.0
+                      )
+                  ),
+                ),
+              ),
+              Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: ListTile(
+                  leading: Icon(
+                      Icons.email,
+                      color: Colors.teal
+                  ),
+                  title: Text(
+                      _email,
+                      style: TextStyle(
+                          fontFamily: _font_sans,
+                          color: Colors.black.withOpacity(0.8),
+                          fontSize: 20.0
+                      )
+                  ),
+                ),
+              ),
+              Container(
+                width: double.infinity,
+              ),
+            ],
+          )
+        )
+      ),
+    );
+  }
 }
 
 class MiCardAppAssignment extends StatelessWidget {
