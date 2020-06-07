@@ -1,6 +1,6 @@
 # tutorial.flutter
 
-Let's study flutter! 
+Hey paul. Let's study flutter! 
 
 # 오준석의 생존코딩
 
