@@ -17,6 +17,11 @@ Let's study flutter!
 
 ##  ["The Complete 2020 Flutter Development Bootcamp with Dart"](https://www.udemy.com/course/flutter-bootcamp-with-dart/)
 
+__You can check my progress with link on section title.__
+- [Section 3: I Am Rich - How to Create Flutter Apps from Scratch](./i_am_rich)
+- [Section 5: I Am Poor - App Challenge](./i_am_poor)
+- [Section 6: MiCard - How to Build Beautiful UIs with Flutter Widgets](./mi_card_flutter)
+- [Section 7: Dicee - Building Apps with State](./dicee-flutter)
 
 ### Section 1: Introduction to Cross-Platform Development with Flutter and Dart
 
